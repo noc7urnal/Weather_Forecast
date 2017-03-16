@@ -1,6 +1,6 @@
-# 5 Day Weather Forecast App
+# 5 Day Weather Forecast App #
 
-## Task
+## Task ##
 
 Please build a one page application displaying a 5 day weather forecast for a location.  The data might look something like the information provided by [http://openweathermap.org/forecast5](http://openweathermap.org/forecast5) - The web framework used. Use ES6/HTML5/CSS3/JavaScript to create your solution. You are free to use whatever frameworks and such that you like.
 
@@ -17,45 +17,84 @@ All submissions should be viewable standalone on standard browsers and can also 
  
 Good luck and thank you for your time - we look forward to seeing your creation.
 
-## User flow
+## User flow ##
 
 1. User enter web page
 2. User then enters a state or city into input field
 3. 5 day forecast is displayed to user
 
-## Functionality
+## Functionality ##
 
-### 1. User enter web page
+### 1. User enter web page ###
 
-* **Current Functionality**
+* ***Current Functionality***
   * Get the user's local time to determine loading day time or night time theme
 
-* **Desired/Future Functionality**
+* ***Desired/Future Functionality***
     * Use video backgrounds to create more of an immersive experience
 
 ### 2. User then enters a state or city into input field
 
-  * **Current Functionality**
+  * ***Current Functionality***
     * Using an API call to openweathermap search for the users location using a state or city within the US
     * Create stylized input field following styling and interactions provided in prototype  
     * Bind enter key to search button
     * After user has clicked search, slide input to top of page and reduce opacity as shown in provided prototype
     
-  * **Desired/Future Functionality**
+  * ***Desired/Future Functionality***
     * Using an API call to openweathermap find users location by geolocation.  Also allow the user to enter any search criteria in the input field including:
       * City
       * Geographic Coordinates
       * Zip
+  
+### 3. 5 day forecast is displayed to user ###
 
-### 3. 5 day forecast is displayed to user
-
-  * **Current Functionality**
+  * ***Current Functionality***
     * Once API call is made, fade in five day forecast in the center of the user’s viewport.
     
-  * **Desired/Future Functionality**
+  * ***Desired/Future Functionality***
     * Adjusting load animation for each day’s content.  Possibly staggering fade up animation from left to right.
     * Add animation when user changes location.
     * Introduce more realistic imagery for iconography and add animations to them.
     * Add additional data about within forecast
     * Create configuration to allow user to choose what data is displayed within forecast
     * On mobile consider using a carousel instead of stacking cards
+
+#### ***Note:*** ####
+Be sure to refer to prototype for examples of styling, functionality, and responsive layout changes
+
+## Testing ##
+
+### macOS Sierra ###
+
+  * Firefox
+    * 52
+    * 51
+
+  * Chrome
+    * 57
+    * 56
+
+  * Safari
+    * 10
+
+### Windows 8.1 ###
+
+  * Firefox
+    * 52
+    * 51
+
+  * Chrome
+    * 57
+    * 56
+
+  * Internet Explore
+    * 11
+
+### iOS 10 ###
+
+  * Chrome
+    * 57
+
+  * Safari
+    * 10
